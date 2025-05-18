@@ -20,6 +20,7 @@ class _HomePageState extends State<HomePage> {
     // Dispatch event to fetch albums
     albumBloc.add(FetchAlbumsEvent());
   }
+  
 
   @override
   Widget build(BuildContext context) {
